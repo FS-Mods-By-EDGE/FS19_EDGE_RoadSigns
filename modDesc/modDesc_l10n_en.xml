@@ -3,18 +3,22 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="function_EDGEGrainSilo" 			text="This Building have automatic lighting."/>
-		<text name="name_SmallGrainSilo" 				text="Small Grain Silo"/>
-		<text name="name_LargeGrainSilo" 				text="Large Grain Silo"/>
-		<text name="name_LargeGrainSiloSystem" 			text="Large Grain Silo System"/>
-		<text name="name_LargeWhiteGrainSiloSystem"		text="Large White Grain Silo System"/>
-		<text name="name_SmallGrainSiloExtension" 		text="Small Grain Silo Extension"/>
-		<text name="name_GrainSiloExtension" 			text="Grain Silo Extension"/>
-		<text name="name_LargeGrainSiloExtension" 		text="Large Grain Silo Extension"/>
-		<text name="name_LargeWhiteGrainSiloExtension" 	text="Large White Grain Silo Extension"/>
-		<text name="name_SmallGrainSiloExtension1" 		text="Small Grain Silo Extension"/>
-		<text name="name_SmallWhiteGrainSiloExtension" 	text="Small White Grain Silo Extension"/>
-		<!-- <text name="typeDesc_EDGEGrainSilo" text="Silos can be used to store grain"/> -->
-		<!-- <text name="function_EDGEGrainSiloExtension" text="It can be placed within 100 Meters of the farmsilo."/> -->
+		<text name="function_EDGESign" 					text="This sign can be placed by the road or around your farm & fields for decorative purposes."/>
+		<text name="function_EDGESignDec" 				text="Decorative Sign with EDGE Logo."/>
+		<text name="name_EDGESign" 						text="Decorative Sign"/>
+		<text name="function_60KMhSignDec" 				text="Decorative 60 Kilometers per Hour Sign"/>
+		<text name="name_60KMhSign" 					text="Speed Limit 60 Sign"/>
+		<text name="function_YieldSignDec" 				text="Decorative Yield Sign"/>
+		<text name="name_YieldSign" 					text="Yield Sign"/>
+		<text name="function_StopSignDec" 				text="Decorative Stop Sign"/>
+		<text name="name_StopSign" 						text="Stop Sign"/>
+		<text name="function_sqYieldSignDec" 			text="Decorative Yield Sign"/>
+		<text name="name_sqYieldSign" 					text="Yield Sign"/>
+		<text name="function_ParkingSignDec" 			text="Decorative Parking Sign"/>
+		<text name="name_ParkingSign" 					text="Parking Sign"/>
+		<text name="function_ExtraSignDec" 				text="Decorative Sign"/>
+		<text name="name_ExtraSign" 					text="Extra Sign"/>
+		<text name="function_ArrowSignDec" 				text="Decorative Arrow Sign"/>
+		<text name="name_ArrowSign" 					text="Arrow Sign"/>
 	</texts>
 </l10n>

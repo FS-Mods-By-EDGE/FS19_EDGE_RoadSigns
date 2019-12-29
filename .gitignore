@@ -7,14 +7,19 @@
   # *data/*.shapes
 
 # build files
+*.mb
+*.mayaSwatches
+*.obj
+
+# Object files
+*.xcf
+
+# Folder config file
+*Desktop.ini
 
 # Prerequisites
 
 # Compiled sources
-
-# build files
-
-# Object files
 
 # Precompiled Headers
 

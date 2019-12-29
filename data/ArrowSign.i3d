@@ -8,9 +8,9 @@
   <Files>
     <File fileId="4" filename="$data/shaders/buildingShader.xml"/>
     <File fileId="10" filename="$data/shaders/decalShader.xml"/>
-    <File fileId="11" filename="textures/EDGE_Logo_diffuse.dds"/>
-    <File fileId="12" filename="textures/EDGE_Logo_normal.dds"/>
-    <File fileId="13" filename="textures/EDGE_Logo_specular.dds"/>
+    <File fileId="11" filename="textures/ArrowSign_diffuse.dds"/>
+    <File fileId="12" filename="textures/ArrowSign_normal.dds"/>
+    <File fileId="13" filename="textures/ArrowSign_specular.dds"/>
     <File fileId="1" filename="textures/Sign_diffuse.dds"/>
     <File fileId="2" filename="textures/Sign_normal.dds"/>
     <File fileId="3" filename="textures/Sign_specular.dds"/>
@@ -18,32 +18,32 @@
 
 
   <Materials>
+    <Material name="roundSign_mat" materialId="4" customShaderId="10" customShaderVariation="reflector">
+      <Texture fileId="11"/>
+      <Normalmap fileId="12"/>
+      <Glossmap fileId="13"/>
+    </Material>
     <Material name="EDGEPole_mat" materialId="7" customShaderId="4">
       <Texture fileId="1"/>
       <Normalmap fileId="2"/>
       <Glossmap fileId="3"/>
     </Material>
-    <Material name="EDGEDecal_mat" materialId="4" customShaderId="10" customShaderVariation="reflector">
+    <Material name="EDGEDecal_mat" materialId="5" customShaderId="10" customShaderVariation="reflector">
       <Texture fileId="1"/>
       <Normalmap fileId="2"/>
       <Glossmap fileId="3"/>
     </Material>
     <Material name="sign_mat" materialId="6">
     </Material>
-    <Material name="EDGESign_mat00" materialId="5" customShaderId="10">
+    <Material name="EDGESign_mat00" materialId="8" customShaderId="10">
       <Texture fileId="1"/>
       <Normalmap fileId="2"/>
       <Glossmap fileId="3"/>
     </Material>
-    <Material name="EDGESign_mat01" materialId="8" customShaderId="10" customShaderVariation="reflector">
-      <Texture fileId="11"/>
-      <Normalmap fileId="12"/>
-      <Glossmap fileId="13"/>
-    </Material>
   </Materials>
 
 
-  <Shapes externalShapesFile="EdgeSign.i3d.shapes">
+  <Shapes externalShapesFile="ArrowSign.i3d.shapes">
   </Shapes>
 
 
@@ -55,9 +55,9 @@
       <Shape shapeId="2" name="col00" translation="0 1.0041 0" visibility="false" static="true" clipDistance="200" nodeId="19" materialIds="6" nonRenderable="true" distanceBlending="false">
         <Shape shapeId="3" name="colsq" translation="0.0008775 1.24238 0" static="true" clipDistance="200" nodeId="20" materialIds="6" nonRenderable="true" distanceBlending="false"/>
       </Shape>
-      <Shape shapeId="4" name="EDGESign" translation="0 2.23894 -0.042648" clipDistance="200" nodeId="21" materialIds="5" castsShadows="true" receiveShadows="true">
-        <Shape shapeId="5" name="EDGESignDec" translation="0 0 -0.0090087" clipDistance="200" nodeId="22" materialIds="8" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="6" name="EDGEDecal" translation="-0.207184 -0.22736 0.00912276" clipDistance="100" nodeId="23" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="4" name="roundSign" translation="0 2.236 -0.043" clipDistance="200" nodeId="21" materialIds="8" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="5" name="roundSignDec" translation="0 0 -0.0039385" clipDistance="200" nodeId="22" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="EDGEDecal" translation="-0.0736434 -0.180248 0.004" clipDistance="100" nodeId="23" materialIds="5" castsShadows="true" receiveShadows="true"/>
       </Shape>
       <TransformGroup name="Clips" nodeId="24">
         <Shape shapeId="7" name="Clip01" translation="0 2.43468 0.0062397" clipDistance="200" nodeId="25" materialIds="7" castsShadows="true" receiveShadows="true"/>
